@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:paractice/home/switch_paractice.dart';
+import 'package:get/get.dart';
+import 'package:paractice/home/gesturedetectorall_paractice.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,9 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SwitchParactice(),
+      home: GesturedetectorallParactice(),
     );
   }
 }
